@@ -103,7 +103,7 @@ footer p:nth-child(4) {
 
 .main-top {
     margin-top: 1rem;
-    background-image: url(/Mangata-and-Gallo-logos/banner.png);
+    background-image: url(/assets/banner.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 25rem;
@@ -179,3 +179,118 @@ h4 {
 i {
     opacity: 50%;
 }
+
+/* Media Query */
+
+/* Extra small devices (phones) */
+@media screen and (max-width: 991.98px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 0.5rem;
+    }
+
+    nav {
+        background-color: black;
+        height: 30%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    nav a {
+        font-size: 0.50rem;
+    }
+
+    nav li {
+        margin: 0.2rem 0.5rem 0.5rem 0.5rem;
+    }
+
+    .main-top {
+        margin-top: 1rem;
+        background-image: url(/Mangata-and-Gallo-logos/banner.png);
+        background-repeat: no-repeat;
+        background-position: 30% 40%;
+        height: 25rem;
+        position: relative;
+    }
+
+    h1 {
+        font-size: 2rem;
+        position: absolute;
+        margin: 0 1.5rem 4rem 0;
+    }
+
+    .buttons {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin: 0 0.5rem 1rem 0;
+    }
+    
+    button {
+        font-size: 1rem;
+        width: 8rem;
+        height: 2.5rem;
+        background-color: black;
+        color: white;
+        margin-right: 1rem;
+    }
+
+    .main-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .main-bottom article {
+        height: 10rem;
+    }
+
+    .main-bottom article:nth-child(1) {
+        border-right: 0;
+    }
+    
+    .main-bottom article:nth-child(3) {
+        border-left: none;
+    }
+
+    article p {
+        font-size: 0.90rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    footer img {
+        width: 70%;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.60rem;
+    }
+    
+  }
+  
+  /* Small devices (landscape phones) */
+  @media screen and (min-width: 576px) and (max-width: 767.98px) {
+  }
+  
+  /* Medium devices (tablets) */
+  @media screen and (min-width: 768px) and (max-width: 991.98px) {
+  }
+  
+  /* Large devices (desktops) */
+  @media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  }
+  
+  /* Extra large devices (large desktops) */
+  @media screen and (min-width: 1200px) {
+  }
